@@ -1,0 +1,16 @@
+:root {
+    --main-bg-color: rgba(243, 239, 239, 0.897);
+}
+
+.card {
+    background-color: var(--main-bg-color);
+}
+
+#title {
+    font-size: 100px;
+}
+
+.todo-list {
+    font-size: 25px;
+}
+
