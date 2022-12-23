@@ -1,2 +1,4 @@
 # ToDo
-A simple todo app.
+
+## H2
+A simple to-do app coded in HTML, CSS, and JavaScript. 
