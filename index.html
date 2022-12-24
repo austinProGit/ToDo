@@ -22,7 +22,7 @@
             <h1 class="mb-3">
               Create New To-Do
             </h1>
-            <form name="createToDoForm" action="#" method="post" class="" onsubmit="addNewToDo(); return false">
+            <form name="createToDoForm" action="#" method="post" autocomplete="off"onsubmit="addNewToDo(); return false">
               <div class="form-group">
                 <label for="toDoName" class="h3">Name: </label>
                 <input type="text" class="form-control form-control-lg" id="toDoName" name="toDoName" placeholder="Enter your new To-Do's name here." required>
@@ -48,7 +48,7 @@
             <h1 class="mb-3">
               Delete To-Do
             </h1>
-            <form name="deleteToDoForm" action="#" method="post" onsubmit="deleteToDo(); return false">
+            <form name="deleteToDoForm" action="#" method="post" autocomplete="off" onsubmit="deleteToDo(); return false">
               <div class="form-group">
                 <label for="toDoName" class="h3">To-Do to Delete: </label>
                 <input type="text" class="form-control  form-control-lg" id="toDoName" name="toDoName" placeholder="Enter the name of the To-Do you'd like to remove.">
